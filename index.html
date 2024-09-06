@@ -1,0 +1,200 @@
+    <!-- Documentação: Este é o arquivo index.html da página WebDesign Criativo -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <!-- Meta tags para definição do caractere de codificação e viewport -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+   
+    <!-- Links para fontes externas (Google Fonts) -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Inclusão dos arquivos CSS necessários -->
+
+<link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    
+    <!-- Titulo da página -->
+
+<title>WebDesign Criativo</title>
+    
+    <!-- Link para o arquivo CSS local que contém os estilos da página -->
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Seção do cabeçalho da página -->
+
+    <header> 
+    <!-- Imagem do logo da empresa -->
+        <img src="./img/logosei.png" alt="logo WebDesign">
+    <!-- Menu de navegação -->
+        <nav>
+            <ul> 
+                <li>Home</li>
+                <li>Sites</li>
+                <li>Fale conosco</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção principal da página -->
+
+    <section class="container">
+    <!-- Div que contém os itens do carrossel -->
+        <div class="list">
+    <!-- Primeiro item do carrossel -->
+            <div class="item active">
+                <div class="sites-img">
+                    <img src="./img/img 01.png" alt="img-site">               
+                </div>
+    <!-- Div que contém a imagem do site -->
+                <div class="content">
+
+    <!-- Parágrafo com informação sobre o site -->
+
+                    <p class="site-information"> 
+                        Ùnico Dono
+                    </p>
+    <!-- Título do site -->
+                    <h2> 
+                       Google
+                    </h2>
+    <!-- Parágrafo com uma breve descrição do site -->
+
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sed accusantium aut atque quis facere ex. Doloremque, odio laborum adipisci est nobis nam iure asperiores suscipit. Repellendus doloremque dolores perspiciatis?
+                    </p>
+                    
+    <!-- Botão para obter mais informações -->
+
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+
+                </div>
+            </div>
+
+    <!-- Segundo item do carrossel -->
+
+            <div class="item">
+    <!-- ... (estrutura similar ao primeiro item) ... -->
+                <div class="sites-img">
+                    <img src="./img/img 02.png" alt="img-site"> 
+                  
+                </div>
+
+                <div class="content">
+
+                    <p class="site-information"> 
+                        Ùnico Dono
+                    </p>
+
+                    <h2> 
+                       Tesla
+                    </h2>
+
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sed accusantium aut atque quis facere ex. Doloremque, odio laborum adipisci est nobis nam iure asperiores suscipit. Repellendus doloremque dolores perspiciatis?
+                    </p>
+
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+
+                </div>
+            </div>
+
+    <!-- Terceiro item do carrossel -->
+
+            <div class="item">
+    <!-- ... (estrutura similar ao primeiro item) ... -->
+                <div class="sites-img">
+                    <img src="./img/img 03.png" alt="img-site"> 
+                  
+                </div>
+
+                <div class="content">
+
+                    <p class="site-information"> 
+                        Ùnico Dono
+                    </p>
+
+                    <h2> 
+                       Apple
+                    </h2>
+
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sed accusantium aut atque quis facere ex. Doloremque, odio laborum adipisci est nobis nam iure asperiores suscipit. Repellendus doloremque dolores perspiciatis?
+                    </p>
+
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+
+                </div>
+            </div>
+
+            <!-- Quarto item do carrossel -->
+
+            <div class="item">
+    <!-- ... (estrutura similar ao primeiro item) ... -->
+                <div class="sites-img">
+                    <img src="./img/img 04.png" alt="img-site"> 
+                  
+                </div>
+
+                <div class="content">
+
+                    <p class="site-information"> 
+                        Ùnico Dono
+                    </p>
+
+                    <h2> 
+                       YouTube
+                    </h2>
+
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sed accusantium aut atque quis facere ex. Doloremque, odio laborum adipisci est nobis nam iure asperiores suscipit. Repellendus doloremque dolores perspiciatis?
+                    </p>
+
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+
+                </div>
+            </div>
+            
+    <!-- Div que contém os botões de navegação -->
+
+        <div class="arrows">
+            <button id="prev"><img src="./img/arrow.png" alt="Seta esquerda"></button>
+            <button id="next"><img src="./img/arrow.png" alt="Seta Direita"></button>
+
+        </div>
+
+        <!-- Div que contém o indicador de pontos -->
+
+        <div class="indicators">
+            <div class="number">01</div>
+            <ul>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Inclusão do script JavaScript que controla o funcionamento do carrossel -->
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
